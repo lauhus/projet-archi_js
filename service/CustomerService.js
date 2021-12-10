@@ -5,7 +5,6 @@ exports.create = (req, res) => {
 
 
 exports.findById = (req, res) => {
-  console.log(req.params.id)
   Customer.findById(req.params , res)
 };
 

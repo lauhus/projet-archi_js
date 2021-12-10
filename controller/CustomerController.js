@@ -15,7 +15,6 @@ Customer.create = (newCustomer, result) => {
 };
 
 Customer.findById = (id, result) => {
-  console.log(id.id)
   sql.query(`SELECT * FROM Customers WHERE id = ${id.id}`, (err, res) => {
     if (err) {
       console.log("error: ", err);
@@ -34,7 +33,7 @@ Customer.findById = (id, result) => {
 
 Customer.updateById = (id, customer, result) => {
   sql.query(
-    "UPDATE Customers SET title = ?, description = ?, published = ? WHERE id = ?",
+    "UPDATE Customers SET customerNumber = ?, address = ?, nom = ? WHERE id = ?",
     [customer.customerNumber, customer.address, customer.nom, id],
     (err, res) => {
       if (err) {

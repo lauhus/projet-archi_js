@@ -1,5 +1,4 @@
 module.exports = app => {
-  const Customer = require("../controller/CustomerController");
   const CustomerService = require('../service/CustomerService')
   var router = require("express").Router();
 
