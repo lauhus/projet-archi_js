@@ -1,0 +1,18 @@
+ARCHITECTURE
+
+Dossier Config =>  Configuration de la base de donnée et connection à celle-ci.
+
+Server.js et Index.js => Mise en place du serveur avec ses packages.
+
+Server.js appelle les fichiers du dossier router pour définir les différentes routes.
+
+Les routers , définissent les méthodes associers à chaques routes. Ainsi que les services.
+
+Les services , appellent les controllers nécessaires.
+
+Les controllers , avec les méthodes des Models effectuent les requêtes via la connection à la base de données.
+
+Le dossier Test regroupe les fichiers des tests automatisés.
+
+
+
