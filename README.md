@@ -1,5 +1,7 @@
 __ PROJET API - MODULE ARCHITECTURE LOGICIELLE __
 
+** Laurine Hussong - Aude LYSKAWA **
+
 
 ** INSTALLATION DU PROJET **
 
